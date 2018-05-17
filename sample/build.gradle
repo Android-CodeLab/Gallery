@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        applicationId "tk.jamun.sample"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'tk.jamun:ui:0.0.1'
+    implementation 'tk.jamun:scanner:0.0.1'
+//    implementation 'tk.jamun:volley:0.0.1'
+//    implementation 'tk.jamun:camera:0.0.1'
+//    implementation 'tk.jamun:gallery:0.0.1'
+//    implementation 'tk.jamun:pickers:0.0.1'
+//    implementation 'tk.jamun:country:0.0.1'
+//    implementation 'tk.jamun:language:0.0.1'
+//    implementation 'tk.jamun:calendar:0.0.1'
+
+}
