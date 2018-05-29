@@ -37,14 +37,14 @@ Window View | Working Preview
 
 ```java
 dependencies {
-     compile 'tk.jamun:gallery:0.0.1'
+     compile 'tk.jamun.ui:gallery:0.0.1'
 }
 ```
 ### Maven Config
 
 ```xml
 <dependency>
-  <groupId>tk.jamun</groupId>
+  <groupId>tk.jamun.ui</groupId>
   <artifactId>gallery</artifactId>
   <version>0.0.1</version>
   <type>aar</type>
@@ -63,6 +63,7 @@ Simple Object declaration :
 ```
 
 ```
+
 #### Step 2. Start Module By Calling
 
 This method is very common to Android Developer, Very easy calling way to Start an activity help you same for calling this Picker :
@@ -94,7 +95,6 @@ intent.putExtra(INTENT_SCANNER_ACTIVITY_NAME, "Title of the Scanner Activity");
 # Dependency
 
 * Goole Vision ``v15.0.2``
-* Zxing ``3.3.0``
 * SDK Version ``15 to 27``
 
 ## Credits
