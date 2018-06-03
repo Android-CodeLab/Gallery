@@ -18,8 +18,8 @@
     <style name="AppBarTheme" parent="AppBarTheme.parent" />
 
     <style name="AppBarTheme.parent" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:textColorPrimary">@color/libraryColorPrimary</item>
-        <item name="android:textColorSecondary">@color/libraryColorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">18sp</item>
         <item name="android:layout_gravity">right</item>

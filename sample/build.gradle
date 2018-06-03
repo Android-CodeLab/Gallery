@@ -9,6 +9,7 @@ android {
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
@@ -17,7 +18,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
@@ -25,9 +25,11 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'tk.jamun.ui:ui:0.0.1'
     implementation 'tk.jamun.ui:scanner:0.0.1'
+    implementation 'tk.jamun.elements:circularimageview:0.0.1'
+    implementation 'tk.jamun.elements:circularnetworkimageview:0.0.1'
+//    implementation 'tk.jamun.elements:elements:0.0.1'
 //    implementation 'tk.jamun.ui:calendar:0.0.1'
 //    implementation 'tk.jamun.ui:gallery:0.0.1'
-//    implementation 'tk.jamun.ui:camera.0.1'
 //    implementation 'tk.jamun.ui:pickers:0.0.2'
 //    implementation 'tk.jamun.ui:country:0.0.2'
 //    implementation 'tk.jamun.ui:share:0.0.2'

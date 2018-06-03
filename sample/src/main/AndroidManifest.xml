@@ -20,7 +20,7 @@
         <activity android:name=".ActivityCameraGallery" />
         <activity android:name=".ActivityCalendar" />
         <activity android:name=".ActivityUIComponent" />
-        <activity android:name=".ActivityScannerSample"/>
+        <activity android:name=".ActivityScannerSample" />
     </application>
 
 </manifest>

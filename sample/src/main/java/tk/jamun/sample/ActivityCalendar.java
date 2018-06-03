@@ -1,11 +1,9 @@
 package tk.jamun.sample;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-
-import java.io.File;
 
 import tk.jamun.ui.calendar.classes.ActivityCalenderDual;
 import tk.jamun.ui.calendar.classes.ActivityCalenderSingle;
