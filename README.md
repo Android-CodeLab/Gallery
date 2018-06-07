@@ -100,12 +100,7 @@ intent.putExtra(INTENT_SCANNER_ACTIVITY_NAME, "Title of the Scanner Activity");
 ## Credits
 
 Desgin & Developed by : **[Jatin Sahgal](https://www.linkedin.com/in/jatinsahgal/)**
- (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](https://jatin.techcruzers.com)**) 
-
-Content Writer : **[Achal Garg](https://www.linkedin.com/in/techgarg/)**
- (**[Linkedin](https://www.linkedin.com/in/techachal/)** & **[Website](https://achal.techcruzers.com)**) 
-
-Company : **[Techcruzers](https://www.techcruzers.com)**
+ (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](https://blog.jamun.tk)**) 
 
 ## More Library under Jamun 
 
