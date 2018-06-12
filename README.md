@@ -26,10 +26,13 @@ The following apps are using this library without facing any kind of Bugs.
 
 ### Jamun-Gallery Preview
 
-Window View | Working Preview
+Activity View | Bottom Sheet View
 ---- | ----
-![gallery](https://user-images.githubusercontent.com/38988514/40283105-bb5783e6-5c96-11e8-993c-075c71f93955.gif) | ![gallery](https://user-images.githubusercontent.com/38988514/40283105-bb5783e6-5c96-11e8-993c-075c71f93955.gif)
+![jamun_gallery_activity](https://user-images.githubusercontent.com/38988514/41310002-d9e0a5a4-6e9d-11e8-8d45-f8db58746b9d.png) | ![jamun_gallery_bottom](https://user-images.githubusercontent.com/38988514/41310006-dc0b4884-6e9d-11e8-9cd2-dd79e428a1a8.png)
 
+Working Preview 
+---- 
+![gallery](https://user-images.githubusercontent.com/38988514/40283105-bb5783e6-5c96-11e8-993c-075c71f93955.gif) 
 
 ### Gradle Configuration
 
