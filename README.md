@@ -2,7 +2,7 @@
 
 Gallery have splendid UI Components with Single and Multi files Selection Mode for android Developers to give there app a A Rich look With with custom picker functionality to cover up maximum media type like Audio, Files (Docs, Text etc) and Images.
 
-### What's New? (0.0.1)
+### What's New? {Latest Version}
 * Stable **Official Version** for Developers and Live Apps.
 * Easy Calling Mechanism with **Instant reply** via onActivityResult.
 * Need less calls with many customs Tags in Intent Object to reach maximum developer satisfaction.
@@ -16,11 +16,18 @@ Gallery have splendid UI Components with Single and Multi files Selection Mode f
 * You don't need to add Multiple libraries and UI components, it have such Components inside that make Quality.
 * Library is Customizable for **Enable Features like Only Audio, Only Files, and Only Images view**.
 
-### Quality Measures? for (0.0.1)
+### Quality Measures? for {Latest Version}
 
 The following apps are using this library without facing any kind of Bugs.
 
 * **[SimplyBlood](https://play.google.com/store/apps/details?id=com.simplyblood)**
+* **[ZINI](https://play.google.com/store/apps/details?id=ai.zini)**,
+* **[RentalBazar](https://play.google.com/store/apps/details?id=com.rentalbazaar)** 
+* **[DoubtCrusher](https://play.google.com/store/apps/details?id=com.doubtcrusher)**
+* **[BookAGround](https://play.google.com/store/apps/details?id=com.bookaground)**
+* **[PeyFree](https://play.google.com/store/apps/details?id=com.peyfree)**
+* **[ClueRace](https://play.google.com/store/apps/details?id=com.cluerace)**
+* **[CIS-Connect In Single](https://play.google.com/store/apps/details?id=com.connectinsingle)**
 
 ------
 
@@ -40,7 +47,7 @@ Working Preview
 
 Step 1\. Add the jCenter repository to your build file. Add it in your root build.gradle at the end of repositories:
 
-```java
+```
 allprojects {
   repositories {
         mavenCentral()
@@ -50,9 +57,22 @@ allprojects {
 
 Step 2\. Add the dependency
 
-```java
+```
+Latest Version : 0.0.8
+
+Android
 dependencies {
-     compile 'tk.jamun.ui:gallery:0.0.1'
+     compile 'tk.jamun.ui:gallery:{Latest Version}'
+}
+
+AndroidX
+dependencies {
+     compile 'tk.jamunx.ui:gallery:{Latest Version}'
+}
+
+Kotlin
+dependencies {
+     compile 'tk.jamun-ktx.ui:gallery:{Latest Version}'
 }
 ```
 
@@ -60,9 +80,14 @@ dependencies {
 
 ```xml
 <dependency>
+ Android
   <groupId>tk.jamun.ui</groupId>
+AndroidX
+  <groupId>tk.jamunx.ui</groupId>
+Kotlin
+  <groupId>tk.jamun-ktx.ui</groupId>
   <artifactId>gallery</artifactId>
-  <version>0.0.1</version>
+  <version>{Latest Version}</version>
   <type>aar</type>
 </dependency>
 ```
@@ -199,7 +224,7 @@ new PickerMulti().setColumnCount();
 ## Credits
 
 Desgin & Developed by : **[Jatin Sahgal](https://www.linkedin.com/in/jatinsahgal/)**
- (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](https://blog.jamun.tk)**) 
+ (**[Linkedin](https://www.linkedin.com/in/jatinsahgal/)** & **[Website](http://androidcodelab.com/)** & **[Github](https://github.com/Lib-Jamun)**) 
 
 ## More Library under Jamun 
 
